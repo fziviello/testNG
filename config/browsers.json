@@ -1,0 +1,12 @@
+{
+    "chrome": {
+        "default": "102.0",
+        "versions": {
+            "102.0": {
+                "image": "selenoid/chrome:102.0",
+                "port": "4444",
+                "path": "/"
+            }
+        }
+    }
+}

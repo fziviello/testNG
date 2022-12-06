@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Web" verbose="1" >
+    <test name="Web" enabled="true">
+        <classes>
+            <class name="com.academy.other.Test_WEB_001"/>
+        </classes>
+    </test>
+</suite>

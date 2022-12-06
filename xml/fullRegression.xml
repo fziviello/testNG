@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="fullRegression" verbose="1" >
+    <test name="Full Regression Test" enabled="true">
+        <parameter name="val_1" value="1"/>
+        <parameter name="val_2" value="2"/>
+        <parameter name="val_3" value="3"/>
+        <parameter name="val_4" value="4"/>
+        <classes>
+            <class name="com.academy.unit.Test_UNIT_01"/>
+        </classes>
+    </test>
+    <test name="Web" enabled="true">
+        <groups>
+            <run>
+                <include name="web"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.academy.other.Test_WEB_001"/>
+        </classes>
+    </test>
+    <test name="Mobile" enabled="false">
+        <classes>
+            <class name="com.academy.other.Test_MOBILE_001"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,40 @@
+# Generated files
+bin/
+gen/
+out/
+target/
+logs/
+screenshot/
+report/
+testreportdir/
+javaDoc/
+test-output
+
+local.properties
+
+proguard/
+
+# Files
+*.log
+*.dex
+*.jks
+*.keystore
+*.DS_Store
+*._.DS_Store
+*.jtl
+*.log
+
+# IntelliJ
+*.iml
+.idea/
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# Node directory
+node_modules
+*/node_modules
+/package-lock.json
+
